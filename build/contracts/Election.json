@@ -56,7 +56,8 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function"
+      "type": "function",
+      "constant": true
     },
     {
       "inputs": [],
@@ -69,7 +70,8 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function"
+      "type": "function",
+      "constant": true
     },
     {
       "inputs": [],
@@ -82,7 +84,8 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function"
+      "type": "function",
+      "constant": true
     },
     {
       "inputs": [],
@@ -95,7 +98,8 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function"
+      "type": "function",
+      "constant": true
     },
     {
       "inputs": [
@@ -124,7 +128,8 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function"
+      "type": "function",
+      "constant": true
     },
     {
       "inputs": [],
@@ -137,7 +142,8 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function"
+      "type": "function",
+      "constant": true
     },
     {
       "inputs": [],
@@ -150,7 +156,8 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function"
+      "type": "function",
+      "constant": true
     },
     {
       "inputs": [
@@ -169,7 +176,8 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function"
+      "type": "function",
+      "constant": true
     },
     {
       "inputs": [
@@ -182,7 +190,8 @@
       "name": "addCandidate",
       "outputs": [],
       "stateMutability": "payable",
-      "type": "function"
+      "type": "function",
+      "payable": true
     },
     {
       "inputs": [
@@ -11988,8 +11997,8 @@
     "5": {
       "events": {},
       "links": {},
-      "address": "0xf89d83fcFDb5Ad06c8e63dBdb09026F74cB333c8",
-      "transactionHash": "0x14a2725b3256ecc2142b8030f374dc45d604924dec784a3a3a061a2435d8df13"
+      "address": "0x759c0372D570298AD10C08449A6DA0Db73F88D26",
+      "transactionHash": "0x60fb576b7a50318623744a0b7f831389417b03640a5ab6d99bf3c9ca6cbc223e"
     },
     "5777": {
       "events": {},
@@ -11999,7 +12008,8 @@
     }
   },
   "schemaVersion": "3.4.11",
-  "updatedAt": "2023-02-09T09:28:41.667Z",
+  "updatedAt": "2023-02-09T09:34:03.700Z",
+  "networkType": "ethereum",
   "devdoc": {
     "kind": "dev",
     "methods": {},
