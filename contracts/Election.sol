@@ -80,6 +80,10 @@ contract Election {
 		emit votedEvent(_candidateId);
 	}
 
+	function setEndTime(uint _endTime) public {
+		EndElectionTime = _endTime;
+	}
+
 	function endElection() public {
 
 		require(ended == false && block.timestamp > EndElectionTime);
